@@ -9,24 +9,21 @@ This study simulates the frictional behavior of a tribological conjunction lubri
 
 ## 2.	Mathematic Model
 
-> the model is built based on Elrod's Cavitation Algorithm, and the assumptions and conditions is as following $\mathrm{Eqn. 1}$:
+> the model is built based on Elrod's Cavitation Algorithm, and the assumptions and conditions is as following :
 
 ### 2.1	2D Reynold's Equation for point contact
 
-$$
-{\partial\over{x}}[{{\rho}h^{3}\over{\eta}}\cdot{\partial{p}\over{\partial{x}}}]+{\partial\over{y}}[{{\rho}h^{3}\over{\eta}}\cdot{\partial{p}\over{\partial{y}}}] = 12{\{{\partial\over\partial{x}}[{{\rho}{h}{(u_{av})}}]\}} 
-$$
+<img src="https://latex.codecogs.com/svg.image?{\partial\over{x}}[{{\rho}h^{3}\over{\eta}}\cdot{\partial{p}\over{\partial{x}}}]&plus;{\partial\over{y}}[{{\rho}h^{3}\over{\eta}}\cdot{\partial{p}\over{\partial{y}}}]&space;=&space;12{\{{\partial\over\partial{x}}[{{\rho}{h}{(u_{av})}}]\}}" title="{\partial\over{x}}[{{\rho}h^{3}\over{\eta}}\cdot{\partial{p}\over{\partial{x}}}]+{\partial\over{y}}[{{\rho}h^{3}\over{\eta}}\cdot{\partial{p}\over{\partial{y}}}] = 12{\{{\partial\over\partial{x}}[{{\rho}{h}{(u_{av})}}]\}}" />
 
 ### 2.2	Pressure Equation
 
-the pressure equation as derived by Elrod is as shown in $\mathrm{Eqn. 2}$
-$$
-p = g{\beta}{\ln}{\theta}+p_{c}, where {\space}{\space}{\space}{\space}\theta\ne0
-$$
+the pressure equation as derived by Elrod is as shown in 
+
+<img src="https://latex.codecogs.com/svg.image?p&space;=&space;g{\beta}{\ln}{\theta}&plus;p_{c},&space;where&space;{\space}{\space}{\space}{\space}\theta\ne0" title="p = g{\beta}{\ln}{\theta}+p_{c}, where {\space}{\space}{\space}{\space}\theta\ne0" />
 
 ### 2.3	Density Equation
 
-Erode relates the frictional film content, $\theta$ to the ratio of the density at full film region and cativation region. the relationship can be expressed as $\mathrm{Eqn. 3}$
-$$
-{\theta} = {{\rho}\over{\rho_c}}\\{{\rho_c}={{\rho}\over{\theta}}}
-$$
+Erode relates the frictional film content, $\theta$ to the ratio of the density at full film region and cativation region. the relationship can be expressed as 
+
+<img src="https://latex.codecogs.com/svg.image?{\theta}={{\rho}\over{\rho_c}}\Rightarrow&space;{{\rho_c}={{\rho}\over{\theta}}}" title="{\theta}={{\rho}\over{\rho_c}}\Rightarrow {{\rho_c}={{\rho}\over{\theta}}}" />
+
