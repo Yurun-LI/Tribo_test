@@ -1,5 +1,4 @@
 # the simulation of tribometer test
-------
 
 ## 1.	Introduction
 
