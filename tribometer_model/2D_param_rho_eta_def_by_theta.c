@@ -557,7 +557,7 @@ int main(int argc, char *argv[])
         error_theta = diff_theta / sum_theta;
         //        printf_param(node.theta);
         printf("the error is :\t%.10lf\n", error_theta);
-    } while ((error_theta > Err_thetaMin || theta_loop <= 1000) && theta_loop <= 300000);
+    } while ((error_theta > Err_thetaMin || theta_loop <= 1000) && theta_loop <= 30000);
     printf_param(node.theta);
     printf("\n");
     printf_param(node.P);
